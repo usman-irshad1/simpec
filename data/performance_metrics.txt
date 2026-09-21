@@ -1,1 +1,965 @@
 --- NEW SIMULATION SESSION ---
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 1
+No vehicles have finished yet.
+Total System Cost: 480
+Average Rush Level: 0
+Total Reroutes: 0
+Active Vehicles: 48
+Total Fuel Consumed: 0 Liters
+Total CO2 Emitted: 0 kg
+Fuel Wasted in Congestion: 0 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Times Sq - 42 St -> Bellevue Hospital EMS | Vehicles: 0/110 | Queue: 2 | Congestion: 0% | Signal: RED
+  Times Sq - 42 St -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 0/90 | Queue: 2 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Lexington - 53 St | Vehicles: 0/110 | Queue: 3 | Congestion: 0% | Signal: RED
+  Grand Central - 42 St -> Columbus Circle - 59 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Penn Station - 34 St -> Grand Central - 42 St | Vehicles: 0/90 | Queue: 2 | Congestion: 0% | Signal: RED
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 0/90 | Queue: 2 | Congestion: 0% | Signal: RED
+  Herald Sq - 34 St -> Canal St - Broadway | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Union Sq - 14 St -> Fulton St - Transit Ctr | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 2 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 0/78 | Queue: 1 | Congestion: 0% | Signal: RED
+  Rockefeller Ctr - 47 St -> Brooklyn Bridge - City Hall | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 0/60 | Queue: 3 | Congestion: 0% | Signal: RED
+  Canal St - Broadway -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Columbus Circle - 59 St | Vehicles: 0/78 | Queue: 2 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 0/81 | Queue: 2 | Congestion: 0% | Signal: RED
+  Brooklyn Bridge - City Hall -> Canal St - Broadway | Vehicles: 0/96 | Queue: 1 | Congestion: 0% | Signal: RED
+  Central Park South -> Canal St - Broadway | Vehicles: 0/90 | Queue: 3 | Congestion: 0% | Signal: RED
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 0/90 | Queue: 2 | Congestion: 0% | Signal: RED
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 0/90 | Queue: 3 | Congestion: 0% | Signal: RED
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 0/90 | Queue: 2 | Congestion: 0% | Signal: RED
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Lexington - 53 St -> SoHo - Spring St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 50
+No vehicles have finished yet.
+Total System Cost: 220.076
+Average Rush Level: 0.00458745
+Total Reroutes: 0
+Active Vehicles: 50
+Total Fuel Consumed: 0 Liters
+Total CO2 Emitted: 0 kg
+Fuel Wasted in Congestion: 0 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Times Sq - 42 St -> Bellevue Hospital EMS | Vehicles: 2/110 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Times Sq - 42 St -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Bellevue Hospital EMS -> Lexington - 53 St | Vehicles: 3/110 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Grand Central - 42 St -> Columbus Circle - 59 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Penn Station - 34 St -> Grand Central - 42 St | Vehicles: 0/90 | Queue: 3 | Congestion: 0% | Signal: RED
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Herald Sq - 34 St -> Canal St - Broadway | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Union Sq - 14 St -> Fulton St - Transit Ctr | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Union Sq - 14 St | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: GREEN
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Rockefeller Ctr - 47 St -> Brooklyn Bridge - City Hall | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: GREEN
+  Canal St - Broadway -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Columbus Circle - 59 St | Vehicles: 2/78 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 0/81 | Queue: 2 | Congestion: 0% | Signal: RED
+  Brooklyn Bridge - City Hall -> Canal St - Broadway | Vehicles: 0/96 | Queue: 1 | Congestion: 0% | Signal: RED
+  Central Park South -> Canal St - Broadway | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 0/90 | Queue: 2 | Congestion: 0% | Signal: RED
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Lexington - 53 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 100
+No vehicles have finished yet.
+Total System Cost: 140.091
+Average Rush Level: 0.00638091
+Total Reroutes: 0
+Active Vehicles: 53
+Total Fuel Consumed: 0 Liters
+Total CO2 Emitted: 0 kg
+Fuel Wasted in Congestion: 0 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Times Sq - 42 St -> Bellevue Hospital EMS | Vehicles: 2/110 | Queue: 0 | Congestion: 1% | Signal: RED
+  Times Sq - 42 St -> Union Sq - 14 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Bellevue Hospital EMS -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Bellevue Hospital EMS -> Lexington - 53 St | Vehicles: 3/110 | Queue: 0 | Congestion: 2% | Signal: RED
+  Grand Central - 42 St -> Columbus Circle - 59 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Penn Station - 34 St -> Grand Central - 42 St | Vehicles: 0/90 | Queue: 4 | Congestion: 0% | Signal: RED
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Herald Sq - 34 St -> Canal St - Broadway | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Fulton St - Transit Ctr | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Union Sq - 14 St | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Rockefeller Ctr - 47 St -> Brooklyn Bridge - City Hall | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  Canal St - Broadway -> Herald Sq - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Columbus Circle - 59 St | Vehicles: 2/78 | Queue: 0 | Congestion: 2% | Signal: RED
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 2/81 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Brooklyn Bridge - City Hall -> Canal St - Broadway | Vehicles: 0/96 | Queue: 1 | Congestion: 0% | Signal: RED
+  Central Park South -> Canal St - Broadway | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: RED
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Lexington - 53 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 150
+No vehicles have finished yet.
+Total System Cost: 80.1181
+Average Rush Level: 0.00794811
+Total Reroutes: 0
+Active Vehicles: 56
+Total Fuel Consumed: 0 Liters
+Total CO2 Emitted: 0 kg
+Fuel Wasted in Congestion: 0 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Times Sq - 42 St -> Bellevue Hospital EMS | Vehicles: 2/110 | Queue: 0 | Congestion: 1% | Signal: RED
+  Times Sq - 42 St -> Union Sq - 14 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Bellevue Hospital EMS -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Lexington - 53 St | Vehicles: 3/110 | Queue: 0 | Congestion: 2% | Signal: RED
+  Grand Central - 42 St -> Columbus Circle - 59 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Penn Station - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Penn Station - 34 St -> Grand Central - 42 St | Vehicles: 4/90 | Queue: 0 | Congestion: 4% | Signal: GREEN
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Herald Sq - 34 St -> Canal St - Broadway | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Columbus Circle - 59 St -> Union Sq - 14 St | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Rockefeller Ctr - 47 St -> Brooklyn Bridge - City Hall | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  Canal St - Broadway -> Herald Sq - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Canal St - Broadway | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Columbus Circle - 59 St | Vehicles: 2/78 | Queue: 0 | Congestion: 2% | Signal: RED
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 2/81 | Queue: 0 | Congestion: 2% | Signal: RED
+  Brooklyn Bridge - City Hall -> Canal St - Broadway | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Central Park South -> Canal St - Broadway | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: RED
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 200
+No vehicles have finished yet.
+Total System Cost: 80.1441
+Average Rush Level: 0.00884645
+Total Reroutes: 0
+Active Vehicles: 59
+Total Fuel Consumed: 0 Liters
+Total CO2 Emitted: 0 kg
+Fuel Wasted in Congestion: 0 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Times Sq - 42 St -> Bellevue Hospital EMS | Vehicles: 2/110 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Times Sq - 42 St -> Union Sq - 14 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Bellevue Hospital EMS -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Grand Central - 42 St -> Columbus Circle - 59 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Grand Central - 42 St -> Penn Station - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Penn Station - 34 St -> Grand Central - 42 St | Vehicles: 4/90 | Queue: 0 | Congestion: 4% | Signal: RED
+  Herald Sq - 34 St -> Canal St - Broadway | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Union Sq - 14 St | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  Canal St - Broadway -> Herald Sq - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Union Sq - 14 St | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: GREEN
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Canal St - Broadway | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Columbus Circle - 59 St | Vehicles: 2/78 | Queue: 0 | Congestion: 2% | Signal: RED
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 2/81 | Queue: 0 | Congestion: 2% | Signal: RED
+  Brooklyn Bridge - City Hall -> Lexington - 53 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Brooklyn Bridge - City Hall -> Canal St - Broadway | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Central Park South -> Canal St - Broadway | Vehicles: 4/90 | Queue: 0 | Congestion: 4% | Signal: GREEN
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Lexington - 53 St -> SoHo - Spring St | Vehicles: 0/90 | Queue: 2 | Congestion: 0% | Signal: RED
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 0/81 | Queue: 2 | Congestion: 0% | Signal: RED
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 250
+Total Vehicles Arrived: 1
+Cumulative Avg Travel Time: 24.3001 ticks
+Windowed Avg Travel Time (last 1): 24.3001 ticks
+Min Travel Time: 24.3001 ticks
+Max Travel Time: 24.3001 ticks
+System Throughput: 0.004 vehicles/tick
+Total Delay (actual - free_flow): -8.09994 ticks
+Total System Cost: 40.1563
+Average Rush Level: 0.00975342
+Total Reroutes: 0
+Active Vehicles: 60
+Total Fuel Consumed: 0.0420749 Liters
+Total CO2 Emitted: 0.0971935 kg
+Fuel Wasted in Congestion: 7.5e-005 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Times Sq - 42 St -> Bellevue Hospital EMS | Vehicles: 2/110 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Times Sq - 42 St -> Union Sq - 14 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Bellevue Hospital EMS -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Bellevue Hospital EMS -> Times Sq - 42 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: GREEN
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: RED
+  Grand Central - 42 St -> Columbus Circle - 59 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Penn Station - 34 St -> Grand Central - 42 St | Vehicles: 5/90 | Queue: 0 | Congestion: 5% | Signal: GREEN
+  Herald Sq - 34 St -> Canal St - Broadway | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Times Sq - 42 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Union Sq - 14 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Union Sq - 14 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: RED
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  Canal St - Broadway -> Herald Sq - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Union Sq - 14 St | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Wall St - Financial -> Canal St - Broadway | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Columbus Circle - 59 St | Vehicles: 2/78 | Queue: 0 | Congestion: 2% | Signal: RED
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 2/81 | Queue: 0 | Congestion: 2% | Signal: RED
+  Brooklyn Bridge - City Hall -> Lexington - 53 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Brooklyn Bridge - City Hall -> Canal St - Broadway | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Central Park South -> Canal St - Broadway | Vehicles: 4/90 | Queue: 0 | Congestion: 4% | Signal: GREEN
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Lexington - 53 St -> SoHo - Spring St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 2/81 | Queue: 0 | Congestion: 2% | Signal: GREEN
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 300
+Total Vehicles Arrived: 3
+Cumulative Avg Travel Time: 27.2667 ticks
+Windowed Avg Travel Time (last 3): 27.2667 ticks
+Min Travel Time: 24.3001 ticks
+Max Travel Time: 28.9001 ticks
+System Throughput: 0.01 vehicles/tick
+Total Delay (actual - free_flow): -7.58616 ticks
+Total System Cost: 70.1335
+Average Rush Level: 0.00940692
+Total Reroutes: 0
+Active Vehicles: 61
+Total Fuel Consumed: 0.1421 Liters
+Total CO2 Emitted: 0.328252 kg
+Fuel Wasted in Congestion: 0.000175 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Times Sq - 42 St -> Bellevue Hospital EMS | Vehicles: 2/110 | Queue: 0 | Congestion: 1% | Signal: RED
+  Times Sq - 42 St -> Union Sq - 14 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Bellevue Hospital EMS -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Bellevue Hospital EMS -> Times Sq - 42 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: RED
+  Grand Central - 42 St -> Columbus Circle - 59 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Penn Station - 34 St -> Rockefeller Ctr - 47 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Penn Station - 34 St -> Grand Central - 42 St | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Herald Sq - 34 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Times Sq - 42 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Union Sq - 14 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Canal St - Broadway -> Central Park South | Vehicles: 1/90 | Queue: 1 | Congestion: 1% | Signal: RED
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Union Sq - 14 St | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Wall St - Financial -> Canal St - Broadway | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Columbus Circle - 59 St | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: RED
+  Wall St - Financial -> Central Park South | Vehicles: 0/78 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 2/81 | Queue: 0 | Congestion: 2% | Signal: RED
+  Brooklyn Bridge - City Hall -> Lexington - 53 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Brooklyn Bridge - City Hall -> Canal St - Broadway | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Central Park South -> Canal St - Broadway | Vehicles: 4/90 | Queue: 0 | Congestion: 4% | Signal: GREEN
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Wall St - Financial | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Lexington - 53 St -> SoHo - Spring St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 2/81 | Queue: 0 | Congestion: 2% | Signal: GREEN
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 350
+Total Vehicles Arrived: 7
+Cumulative Avg Travel Time: 30.9286 ticks
+Windowed Avg Travel Time (last 7): 30.9286 ticks
+Min Travel Time: 24.3001 ticks
+Max Travel Time: 35 ticks
+System Throughput: 0.02 vehicles/tick
+Total Delay (actual - free_flow): -6.30196 ticks
+Total System Cost: 150.12
+Average Rush Level: 0.00821633
+Total Reroutes: 0
+Active Vehicles: 60
+Total Fuel Consumed: 0.359974 Liters
+Total CO2 Emitted: 0.831546 kg
+Fuel Wasted in Congestion: 0.00315 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Bellevue Hospital EMS -> Times Sq - 42 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Lexington - 53 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: GREEN
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Grand Central - 42 St -> Penn Station - 34 St | Vehicles: 0/90 | Queue: 3 | Congestion: 0% | Signal: RED
+  Grand Central - 42 St -> Union Sq - 14 St | Vehicles: 2/60 | Queue: 1 | Congestion: 3% | Signal: RED
+  Penn Station - 34 St -> Rockefeller Ctr - 47 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Penn Station - 34 St -> Grand Central - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Bellevue Hospital EMS | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Wall St - Financial | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Union Sq - 14 St -> Herald Sq - 34 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Union Sq - 14 St -> Times Sq - 42 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Columbus Circle - 59 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 0/78 | Queue: 1 | Congestion: 0% | Signal: RED
+  Canal St - Broadway -> Herald Sq - 34 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Canal St - Broadway -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Canal St - Broadway -> Union Sq - 14 St | Vehicles: 4/60 | Queue: 0 | Congestion: 6% | Signal: GREEN
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Wall St - Financial -> Canal St - Broadway | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Columbus Circle - 59 St | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Wall St - Financial -> Central Park South | Vehicles: 0/78 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Hudson Yards - 34 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Brooklyn Bridge - City Hall -> Canal St - Broadway | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Central Park South -> Canal St - Broadway | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Hudson Yards - 34 St -> Wall St - Financial | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 2/90 | Queue: 1 | Congestion: 2% | Signal: RED
+  Lexington - 53 St -> Brooklyn Bridge - City Hall | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Lexington - 53 St -> SoHo - Spring St | Vehicles: 2/90 | Queue: 1 | Congestion: 2% | Signal: RED
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 2/81 | Queue: 0 | Congestion: 2% | Signal: RED
+  Lexington - 53 St -> Bellevue Hospital EMS | Vehicles: 0/110 | Queue: 1 | Congestion: 0% | Signal: RED
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 400
+Total Vehicles Arrived: 10
+Cumulative Avg Travel Time: 32.86 ticks
+Windowed Avg Travel Time (last 10): 32.86 ticks
+Min Travel Time: 24.3001 ticks
+Max Travel Time: 39.6 ticks
+System Throughput: 0.025 vehicles/tick
+Total Delay (actual - free_flow): 10.2796 ticks
+Total System Cost: 70.1424
+Average Rush Level: 0.00957188
+Total Reroutes: 0
+Active Vehicles: 60
+Total Fuel Consumed: 0.869157 Liters
+Total CO2 Emitted: 2.17318 kg
+Fuel Wasted in Congestion: 0.0049336 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Times Sq - 42 St -> Herald Sq - 34 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Bellevue Hospital EMS -> Lexington - 53 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: RED
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Grand Central - 42 St -> Penn Station - 34 St | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Grand Central - 42 St -> Union Sq - 14 St | Vehicles: 2/60 | Queue: 1 | Congestion: 3% | Signal: RED
+  Penn Station - 34 St -> Rockefeller Ctr - 47 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Penn Station - 34 St -> Grand Central - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Bellevue Hospital EMS | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Herald Sq - 34 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Union Sq - 14 St -> Times Sq - 42 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 0/78 | Queue: 1 | Congestion: 0% | Signal: RED
+  Rockefeller Ctr - 47 St -> Brooklyn Bridge - City Hall | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Herald Sq - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Canal St - Broadway -> Union Sq - 14 St | Vehicles: 4/60 | Queue: 0 | Congestion: 6% | Signal: GREEN
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Wall St - Financial -> Canal St - Broadway | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Wall St - Financial -> Central Park South | Vehicles: 0/78 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Hudson Yards - 34 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Brooklyn Bridge - City Hall -> Canal St - Broadway | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Hudson Yards - 34 St -> Wall St - Financial | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Lexington - 53 St -> Brooklyn Bridge - City Hall | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Lexington - 53 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 2/81 | Queue: 0 | Congestion: 2% | Signal: RED
+  Lexington - 53 St -> Bellevue Hospital EMS | Vehicles: 0/110 | Queue: 1 | Congestion: 0% | Signal: RED
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 450
+Total Vehicles Arrived: 12
+Cumulative Avg Travel Time: 34.4 ticks
+Windowed Avg Travel Time (last 12): 34.4 ticks
+Min Travel Time: 24.3001 ticks
+Max Travel Time: 43.6999 ticks
+System Throughput: 0.0266667 vehicles/tick
+Total Delay (actual - free_flow): 34.8634 ticks
+Total System Cost: 50.1407
+Average Rush Level: 0.00986501
+Total Reroutes: 0
+Active Vehicles: 60
+Total Fuel Consumed: 1.1123 Liters
+Total CO2 Emitted: 2.8248 kg
+Fuel Wasted in Congestion: 0.0093752 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Times Sq - 42 St -> Herald Sq - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Bellevue Hospital EMS -> Lexington - 53 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: RED
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Grand Central - 42 St -> Penn Station - 34 St | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Grand Central - 42 St -> Union Sq - 14 St | Vehicles: 2/60 | Queue: 1 | Congestion: 3% | Signal: RED
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Bellevue Hospital EMS | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Herald Sq - 34 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Union Sq - 14 St -> Times Sq - 42 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Rockefeller Ctr - 47 St -> Brooklyn Bridge - City Hall | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Canal St - Broadway -> Herald Sq - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Canal St - Broadway -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Canal St - Broadway -> Union Sq - 14 St | Vehicles: 4/60 | Queue: 0 | Congestion: 6% | Signal: GREEN
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Wall St - Financial -> Canal St - Broadway | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Wall St - Financial -> Central Park South | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Fulton St - Transit Ctr -> Columbus Circle - 59 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Hudson Yards - 34 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Brooklyn Bridge - City Hall -> Canal St - Broadway | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Central Park South -> Canal St - Broadway | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Hudson Yards - 34 St -> Wall St - Financial | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: GREEN
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  SoHo - Spring St -> Grand Central - 42 St | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> Brooklyn Bridge - City Hall | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Lexington - 53 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 2/81 | Queue: 0 | Congestion: 2% | Signal: RED
+  Lexington - 53 St -> Bellevue Hospital EMS | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: GREEN
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 500
+Total Vehicles Arrived: 16
+Cumulative Avg Travel Time: 36.2 ticks
+Windowed Avg Travel Time (last 16): 36.2 ticks
+Min Travel Time: 24.3001 ticks
+Max Travel Time: 48.8998 ticks
+System Throughput: 0.032 vehicles/tick
+Total Delay (actual - free_flow): 50.2267 ticks
+Total System Cost: 50.1086
+Average Rush Level: 0.00957201
+Total Reroutes: 0
+Active Vehicles: 59
+Total Fuel Consumed: 1.48204 Liters
+Total CO2 Emitted: 3.78421 kg
+Fuel Wasted in Congestion: 0.0098666 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Times Sq - 42 St -> Herald Sq - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Bellevue Hospital EMS -> Lexington - 53 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: RED
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Penn Station - 34 St | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Grand Central - 42 St -> Union Sq - 14 St | Vehicles: 2/60 | Queue: 1 | Congestion: 3% | Signal: RED
+  Union Sq - 14 St -> Bellevue Hospital EMS | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Herald Sq - 34 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Union Sq - 14 St -> Times Sq - 42 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 1/60 | Queue: 2 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Rockefeller Ctr - 47 St -> Brooklyn Bridge - City Hall | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Canal St - Broadway -> Herald Sq - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Canal St - Broadway -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 2/96 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Canal St - Broadway -> Union Sq - 14 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Wall St - Financial -> Canal St - Broadway | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Wall St - Financial -> Central Park South | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Fulton St - Transit Ctr -> Columbus Circle - 59 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Fulton St - Transit Ctr -> Hudson Yards - 34 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Brooklyn Bridge - City Hall -> Canal St - Broadway | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Central Park South -> Canal St - Broadway | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Hudson Yards - 34 St -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  SoHo - Spring St -> Grand Central - 42 St | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> Brooklyn Bridge - City Hall | Vehicles: 2/90 | Queue: 1 | Congestion: 2% | Signal: RED
+  Lexington - 53 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 2/81 | Queue: 0 | Congestion: 2% | Signal: RED
+  Lexington - 53 St -> Bellevue Hospital EMS | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: RED
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 550
+Total Vehicles Arrived: 25
+Cumulative Avg Travel Time: 38.028 ticks
+Windowed Avg Travel Time (last 25): 38.028 ticks
+Min Travel Time: 18.3 ticks
+Max Travel Time: 53.3998 ticks
+P95 Travel Time: 52.2998 ticks
+System Throughput: 0.0454545 vehicles/tick
+Total Delay (actual - free_flow): 100.568 ticks
+Total System Cost: 20.1409
+Average Rush Level: 0.0093574
+Total Reroutes: 0
+Active Vehicles: 53
+Total Fuel Consumed: 2.53512 Liters
+Total CO2 Emitted: 6.5359 kg
+Fuel Wasted in Congestion: 0.0264216 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Times Sq - 42 St -> Herald Sq - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Grand Central - 42 St -> Columbus Circle - 59 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Grand Central - 42 St -> Penn Station - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Union Sq - 14 St | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: GREEN
+  Penn Station - 34 St -> Rockefeller Ctr - 47 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Herald Sq - 34 St -> Canal St - Broadway | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Bellevue Hospital EMS | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Union Sq - 14 St -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Herald Sq - 34 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Times Sq - 42 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 5/60 | Queue: 0 | Congestion: 8% | Signal: GREEN
+  Columbus Circle - 59 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Rockefeller Ctr - 47 St -> Brooklyn Bridge - City Hall | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 2/96 | Queue: 0 | Congestion: 2% | Signal: RED
+  Wall St - Financial -> Canal St - Broadway | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Wall St - Financial -> Central Park South | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Fulton St - Transit Ctr -> Columbus Circle - 59 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Hudson Yards - 34 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Brooklyn Bridge - City Hall -> Rockefeller Ctr - 47 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Brooklyn Bridge - City Hall -> Canal St - Broadway | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Central Park South -> Canal St - Broadway | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Hudson Yards - 34 St -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  SoHo - Spring St -> Grand Central - 42 St | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Lexington - 53 St -> Brooklyn Bridge - City Hall | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Lexington - 53 St -> Bellevue Hospital EMS | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: RED
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 600
+Total Vehicles Arrived: 33
+Cumulative Avg Travel Time: 41.5181 ticks
+Windowed Avg Travel Time (last 33): 41.5181 ticks
+Min Travel Time: 16.5 ticks
+Max Travel Time: 59.7997 ticks
+P95 Travel Time: 59.1997 ticks
+System Throughput: 0.055 vehicles/tick
+Total Delay (actual - free_flow): 197.729 ticks
+Total System Cost: 30.1034
+Average Rush Level: 0.00822398
+Total Reroutes: 0
+Active Vehicles: 48
+Total Fuel Consumed: 3.05292 Liters
+Total CO2 Emitted: 7.79883 kg
+Fuel Wasted in Congestion: 0.0566216 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Times Sq - 42 St -> Herald Sq - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Bellevue Hospital EMS -> Lexington - 53 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: GREEN
+  Grand Central - 42 St -> Columbus Circle - 59 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Grand Central - 42 St -> Penn Station - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Union Sq - 14 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Penn Station - 34 St -> Rockefeller Ctr - 47 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Herald Sq - 34 St -> Canal St - Broadway | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Bellevue Hospital EMS | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Herald Sq - 34 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Times Sq - 42 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 4/60 | Queue: 0 | Congestion: 6% | Signal: GREEN
+  Union Sq - 14 St -> Canal St - Broadway | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Rockefeller Ctr - 47 St -> Brooklyn Bridge - City Hall | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Canal St - Broadway -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 2/96 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Wall St - Financial -> Canal St - Broadway | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Wall St - Financial -> Central Park South | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Columbus Circle - 59 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Rockefeller Ctr - 47 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Fulton St - Transit Ctr -> Hudson Yards - 34 St | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Brooklyn Bridge - City Hall -> Rockefeller Ctr - 47 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Central Park South -> Canal St - Broadway | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Hudson Yards - 34 St -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  SoHo - Spring St -> Grand Central - 42 St | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Lexington - 53 St -> Brooklyn Bridge - City Hall | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 650
+Total Vehicles Arrived: 39
+Cumulative Avg Travel Time: 43.8589 ticks
+Windowed Avg Travel Time (last 39): 43.8589 ticks
+Min Travel Time: 16.5 ticks
+Max Travel Time: 64.1996 ticks
+P95 Travel Time: 61.5996 ticks
+System Throughput: 0.06 vehicles/tick
+Total Delay (actual - free_flow): 254.034 ticks
+Total System Cost: 60.0818
+Average Rush Level: 0.00682865
+Total Reroutes: 0
+Active Vehicles: 45
+Total Fuel Consumed: 4.48205 Liters
+Total CO2 Emitted: 11.5609 kg
+Fuel Wasted in Congestion: 0.0665308 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Bellevue Hospital EMS -> Times Sq - 42 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: GREEN
+  Bellevue Hospital EMS -> Lexington - 53 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: GREEN
+  Grand Central - 42 St -> Columbus Circle - 59 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Penn Station - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Penn Station - 34 St -> Rockefeller Ctr - 47 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Herald Sq - 34 St -> Canal St - Broadway | Vehicles: 1/90 | Queue: 1 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Bellevue Hospital EMS | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 4/60 | Queue: 0 | Congestion: 6% | Signal: GREEN
+  Union Sq - 14 St -> Canal St - Broadway | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Columbus Circle - 59 St -> Grand Central - 42 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Canal St - Broadway -> Herald Sq - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Canal St - Broadway -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 2/96 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Wall St - Financial -> Central Park South | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Rockefeller Ctr - 47 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Brooklyn Bridge - City Hall -> Rockefeller Ctr - 47 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Central Park South -> Canal St - Broadway | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Wall St - Financial | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  SoHo - Spring St -> Grand Central - 42 St | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Lexington - 53 St -> Brooklyn Bridge - City Hall | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 0/81 | Queue: 1 | Congestion: 0% | Signal: RED
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 700
+Total Vehicles Arrived: 43
+Cumulative Avg Travel Time: 46.1347 ticks
+Windowed Avg Travel Time (last 43): 46.1347 ticks
+Min Travel Time: 16.5 ticks
+Max Travel Time: 69.6995 ticks
+P95 Travel Time: 67.5995 ticks
+System Throughput: 0.0614286 vehicles/tick
+Total Delay (actual - free_flow): 263.292 ticks
+Total System Cost: 20.0896
+Average Rush Level: 0.00730516
+Total Reroutes: 0
+Active Vehicles: 43
+Total Fuel Consumed: 5.09981 Liters
+Total CO2 Emitted: 13.1294 kg
+Fuel Wasted in Congestion: 0.066842 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Bellevue Hospital EMS -> Times Sq - 42 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: GREEN
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Lexington - 53 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: GREEN
+  Grand Central - 42 St -> Columbus Circle - 59 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Bellevue Hospital EMS | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Grand Central - 42 St -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Herald Sq - 34 St -> Canal St - Broadway | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Union Sq - 14 St -> Bellevue Hospital EMS | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 4/60 | Queue: 0 | Congestion: 6% | Signal: GREEN
+  Union Sq - 14 St -> Canal St - Broadway | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Grand Central - 42 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Wall St - Financial | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: RED
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Canal St - Broadway -> Herald Sq - 34 St | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Canal St - Broadway -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Wall St - Financial -> Central Park South | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Rockefeller Ctr - 47 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Brooklyn Bridge - City Hall -> Rockefeller Ctr - 47 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Central Park South -> Hudson Yards - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  SoHo - Spring St -> Hudson Yards - 34 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  SoHo - Spring St -> Grand Central - 42 St | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Lexington - 53 St -> Brooklyn Bridge - City Hall | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: RED
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 750
+Total Vehicles Arrived: 50
+Cumulative Avg Travel Time: 48.4258 ticks
+Windowed Avg Travel Time (last 50): 48.4258 ticks
+Min Travel Time: 16.5 ticks
+Max Travel Time: 73.5994 ticks
+P95 Travel Time: 71.5995 ticks
+System Throughput: 0.0666667 vehicles/tick
+Total Delay (actual - free_flow): 329.866 ticks
+Total System Cost: 20.0807
+Average Rush Level: 0.00665416
+Total Reroutes: 0
+Active Vehicles: 39
+Total Fuel Consumed: 6.38032 Liters
+Total CO2 Emitted: 16.4089 kg
+Fuel Wasted in Congestion: 0.0926065 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Bellevue Hospital EMS -> Times Sq - 42 St | Vehicles: 2/110 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Lexington - 53 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: GREEN
+  Grand Central - 42 St -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Penn Station - 34 St -> Columbus Circle - 59 St | Vehicles: 1/78 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Herald Sq - 34 St -> Canal St - Broadway | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Bellevue Hospital EMS | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  Union Sq - 14 St -> Canal St - Broadway | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Grand Central - 42 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 2/60 | Queue: 0 | Congestion: 3% | Signal: RED
+  Canal St - Broadway -> Herald Sq - 34 St | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Canal St - Broadway -> Central Park South | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Canal St - Broadway -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Lexington - 53 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Rockefeller Ctr - 47 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Brooklyn Bridge - City Hall -> Rockefeller Ctr - 47 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Hudson Yards - 34 St -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  SoHo - Spring St -> Grand Central - 42 St | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> Brooklyn Bridge - City Hall | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 800
+Total Vehicles Arrived: 58
+Cumulative Avg Travel Time: 49.8774 ticks
+Windowed Avg Travel Time (last 58): 49.8774 ticks
+Min Travel Time: 16.5 ticks
+Max Travel Time: 79.3994 ticks
+P95 Travel Time: 75.3994 ticks
+System Throughput: 0.0725 vehicles/tick
+Total Delay (actual - free_flow): 403.973 ticks
+Total System Cost: 20.064
+Average Rush Level: 0.00579636
+Total Reroutes: 0
+Active Vehicles: 34
+Total Fuel Consumed: 7.65513 Liters
+Total CO2 Emitted: 19.6967 kg
+Fuel Wasted in Congestion: 0.116236 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Bellevue Hospital EMS -> Times Sq - 42 St | Vehicles: 2/110 | Queue: 0 | Congestion: 1% | Signal: RED
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Penn Station - 34 St -> Columbus Circle - 59 St | Vehicles: 2/78 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Herald Sq - 34 St -> Canal St - Broadway | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Bellevue Hospital EMS | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 3/60 | Queue: 0 | Congestion: 5% | Signal: RED
+  Union Sq - 14 St -> Canal St - Broadway | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Columbus Circle - 59 St -> Grand Central - 42 St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Columbus Circle - 59 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Canal St - Broadway -> Herald Sq - 34 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Canal St - Broadway -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Rockefeller Ctr - 47 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Brooklyn Bridge - City Hall -> Rockefeller Ctr - 47 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Hudson Yards - 34 St -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 3/90 | Queue: 0 | Congestion: 3% | Signal: GREEN
+  Hudson Yards - 34 St -> SoHo - Spring St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> Brooklyn Bridge - City Hall | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> Bellevue Hospital EMS | Vehicles: 0/110 | Queue: 1 | Congestion: 0% | Signal: RED
+----------------------------------
+
+--- PERFORMANCE METRICS REPORT ---
+Tick: 850
+Total Vehicles Arrived: 65
+Cumulative Avg Travel Time: 52.0998 ticks
+Windowed Avg Travel Time (last 65): 52.0998 ticks
+Min Travel Time: 16.5 ticks
+Max Travel Time: 84.0993 ticks
+P95 Travel Time: 80.7993 ticks
+System Throughput: 0.0764706 vehicles/tick
+Total Delay (actual - free_flow): 505.183 ticks
+Total System Cost: 20.0455
+Average Rush Level: 0.00503623
+Total Reroutes: 0
+Active Vehicles: 30
+Total Fuel Consumed: 8.89774 Liters
+Total CO2 Emitted: 22.9932 kg
+Fuel Wasted in Congestion: 0.148643 Liters
+Total Toll Crossings: 0 (Revenue: PKR 0)
+Active Roads:
+  Bellevue Hospital EMS -> Times Sq - 42 St | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: RED
+  Bellevue Hospital EMS -> Grand Central - 42 St | Vehicles: 1/90 | Queue: 0 | Congestion: 1% | Signal: RED
+  Grand Central - 42 St -> SoHo - Spring St | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Grand Central - 42 St -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Penn Station - 34 St -> Columbus Circle - 59 St | Vehicles: 2/78 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Herald Sq - 34 St -> Times Sq - 42 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Union Sq - 14 St -> Bellevue Hospital EMS | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Grand Central - 42 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Union Sq - 14 St -> Canal St - Broadway | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Columbus Circle - 59 St -> Grand Central - 42 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Canal St - Broadway -> Brooklyn Bridge - City Hall | Vehicles: 1/96 | Queue: 0 | Congestion: 1% | Signal: RED
+  Wall St - Financial -> Union Sq - 14 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Fulton St - Transit Ctr -> SoHo - Spring St | Vehicles: 0/60 | Queue: 1 | Congestion: 0% | Signal: RED
+  Fulton St - Transit Ctr -> Union Sq - 14 St | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: RED
+  Fulton St - Transit Ctr -> Rockefeller Ctr - 47 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Fulton St - Transit Ctr -> Hudson Yards - 34 St | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Brooklyn Bridge - City Hall -> Lexington - 53 St | Vehicles: 0/90 | Queue: 1 | Congestion: 0% | Signal: RED
+  Hudson Yards - 34 St -> Wall St - Financial | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  Hudson Yards - 34 St -> Central Park South | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Hudson Yards - 34 St -> Fulton St - Transit Ctr | Vehicles: 1/60 | Queue: 0 | Congestion: 1% | Signal: RED
+  SoHo - Spring St -> Lexington - 53 St | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Lexington - 53 St -> Brooklyn Bridge - City Hall | Vehicles: 2/90 | Queue: 0 | Congestion: 2% | Signal: GREEN
+  Lexington - 53 St -> Fulton St - Transit Ctr | Vehicles: 1/81 | Queue: 0 | Congestion: 1% | Signal: GREEN
+  Lexington - 53 St -> Bellevue Hospital EMS | Vehicles: 1/110 | Queue: 0 | Congestion: 0% | Signal: GREEN
+----------------------------------

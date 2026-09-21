@@ -1,1 +1,67 @@
 --- NEW SIMULATION SESSION ---
+Car 91000   (Bellevue Hospital EMS->Penn Station - 34 St)arrived in 24.300056 ticks.   Path: Bellevue Hospital EMS -> Grand Central - 42 St -> Penn Station - 34 St
+Car 50009   (Wall St - Financial->Columbus Circle - 59 St)arrived in 28.600073 ticks.   Path: Wall St - Financial -> Columbus Circle - 59 St
+Car 50039   (Rockefeller Ctr - 47 St->Fulton St - Transit Ctr)arrived in 28.900074 ticks.   Path: Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr
+Car 91001   (Bellevue Hospital EMS->Columbus Circle - 59 St)arrived in 31.000082 ticks.   Path: Bellevue Hospital EMS -> Grand Central - 42 St -> Columbus Circle - 59 St
+Car 50023   (Union Sq - 14 St->Fulton St - Transit Ctr)arrived in 33.700058 ticks.   Path: Union Sq - 14 St -> Fulton St - Transit Ctr
+Car 50014   (Hudson Yards - 34 St->Canal St - Broadway)arrived in 35.000038 ticks.   Path: Hudson Yards - 34 St -> Central Park South -> Canal St - Broadway
+Car 50032   (Lexington - 53 St->Hudson Yards - 34 St)arrived in 35.000038 ticks.   Path: Lexington - 53 St -> SoHo - Spring St -> Hudson Yards - 34 St
+Car 50007   (Wall St - Financial->Columbus Circle - 59 St)arrived in 35.700027 ticks.   Path: Wall St - Financial -> Columbus Circle - 59 St
+Car 50020   (Hudson Yards - 34 St->Canal St - Broadway)arrived in 36.800011 ticks.   Path: Hudson Yards - 34 St -> Central Park South -> Canal St - Broadway
+Car 50022   (Bellevue Hospital EMS->SoHo - Spring St)arrived in 39.599968 ticks.   Path: Bellevue Hospital EMS -> Lexington - 53 St -> SoHo - Spring St
+Car 50035   (Fulton St - Transit Ctr->Lexington - 53 St)arrived in 40.499954 ticks.   Path: Fulton St - Transit Ctr -> Lexington - 53 St
+Car 50019   (Penn Station - 34 St->Bellevue Hospital EMS)arrived in 43.699905 ticks.   Path: Penn Station - 34 St -> Grand Central - 42 St -> Bellevue Hospital EMS
+Car 50009   (Hudson Yards - 34 St->Fulton St - Transit Ctr)arrived in 29.900078 ticks.   Path: Hudson Yards - 34 St -> Fulton St - Transit Ctr
+Car 50034   (SoHo - Spring St->Wall St - Financial)arrived in 46.399864 ticks.   Path: SoHo - Spring St -> Hudson Yards - 34 St -> Wall St - Financial
+Car 50004   (Canal St - Broadway->Times Sq - 42 St)arrived in 41.199944 ticks.   Path: Canal St - Broadway -> Herald Sq - 34 St -> Times Sq - 42 St
+Car 50027   (Central Park South->Lexington - 53 St)arrived in 48.899826 ticks.   Path: Central Park South -> Hudson Yards - 34 St -> SoHo - Spring St -> Lexington - 53 St
+Car 50010   (Hudson Yards - 34 St->Fulton St - Transit Ctr)arrived in 50.699799 ticks.   Path: Hudson Yards - 34 St -> Fulton St - Transit Ctr
+Car 50018   (Lexington - 53 St->Brooklyn Bridge - City Hall)arrived in 18.300034 ticks.   Path: Lexington - 53 St -> Brooklyn Bridge - City Hall
+Car 50008   (Bellevue Hospital EMS->Penn Station - 34 St)arrived in 36.900009 ticks.   Path: Bellevue Hospital EMS -> Grand Central - 42 St -> Penn Station - 34 St
+Car 50021   (Herald Sq - 34 St->Lexington - 53 St)arrived in 51.499786 ticks.   Path: Herald Sq - 34 St -> Times Sq - 42 St -> Bellevue Hospital EMS -> Lexington - 53 St
+Car 50018   (Bellevue Hospital EMS->Fulton St - Transit Ctr)arrived in 52.299774 ticks.   Path: Bellevue Hospital EMS -> Lexington - 53 St -> Fulton St - Transit Ctr
+Car 50010   (Canal St - Broadway->Hudson Yards - 34 St)arrived in 34.600044 ticks.   Path: Canal St - Broadway -> Central Park South -> Hudson Yards - 34 St
+Car 50012   (SoHo - Spring St->Central Park South)arrived in 31.200083 ticks.   Path: SoHo - Spring St -> Hudson Yards - 34 St -> Central Park South
+Car 50025   (Columbus Circle - 59 St->Herald Sq - 34 St)arrived in 53.399757 ticks.   Path: Columbus Circle - 59 St -> Union Sq - 14 St -> Herald Sq - 34 St
+Car 50006   (Central Park South->SoHo - Spring St)arrived in 42.599922 ticks.   Path: Central Park South -> Hudson Yards - 34 St -> SoHo - Spring St
+Car 50041   (Lexington - 53 St->Fulton St - Transit Ctr)arrived in 55.299728 ticks.   Path: Lexington - 53 St -> Fulton St - Transit Ctr
+Car 50003   (Rockefeller Ctr - 47 St->SoHo - Spring St)arrived in 55.499725 ticks.   Path: Rockefeller Ctr - 47 St -> Brooklyn Bridge - City Hall -> Lexington - 53 St -> SoHo - Spring St
+Car 50022   (Rockefeller Ctr - 47 St->Brooklyn Bridge - City Hall)arrived in 16.500027 ticks.   Path: Rockefeller Ctr - 47 St -> Brooklyn Bridge - City Hall
+Car 50044   (Grand Central - 42 St->Herald Sq - 34 St)arrived in 56.899704 ticks.   Path: Grand Central - 42 St -> Bellevue Hospital EMS -> Times Sq - 42 St -> Herald Sq - 34 St
+Car 50042   (Bellevue Hospital EMS->Wall St - Financial)arrived in 57.599693 ticks.   Path: Bellevue Hospital EMS -> Union Sq - 14 St -> Wall St - Financial
+Car 50043   (Times Sq - 42 St->Fulton St - Transit Ctr)arrived in 58.599678 ticks.   Path: Times Sq - 42 St -> Union Sq - 14 St -> Fulton St - Transit Ctr
+Car 50013   (Fulton St - Transit Ctr->Bellevue Hospital EMS)arrived in 59.199669 ticks.   Path: Fulton St - Transit Ctr -> Lexington - 53 St -> Bellevue Hospital EMS
+Car 50038   (Union Sq - 14 St->Grand Central - 42 St)arrived in 59.799660 ticks.   Path: Union Sq - 14 St -> Grand Central - 42 St
+Car 50017   (Bellevue Hospital EMS->Hudson Yards - 34 St)arrived in 60.899643 ticks.   Path: Bellevue Hospital EMS -> Lexington - 53 St -> SoHo - Spring St -> Hudson Yards - 34 St
+Car 50014   (Penn Station - 34 St->Brooklyn Bridge - City Hall)arrived in 36.200020 ticks.   Path: Penn Station - 34 St -> Rockefeller Ctr - 47 St -> Brooklyn Bridge - City Hall
+Car 50037   (Columbus Circle - 59 St->Times Sq - 42 St)arrived in 61.599632 ticks.   Path: Columbus Circle - 59 St -> Union Sq - 14 St -> Times Sq - 42 St
+Car 50001   (Columbus Circle - 59 St->Herald Sq - 34 St)arrived in 59.799660 ticks.   Path: Columbus Circle - 59 St -> Union Sq - 14 St -> Herald Sq - 34 St
+Car 50003   (Penn Station - 34 St->Union Sq - 14 St)arrived in 57.699692 ticks.   Path: Penn Station - 34 St -> Grand Central - 42 St -> Union Sq - 14 St
+Car 50040   (Rockefeller Ctr - 47 St->Hudson Yards - 34 St)arrived in 64.199593 ticks.   Path: Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr -> Hudson Yards - 34 St
+Car 50004   (Times Sq - 42 St->Rockefeller Ctr - 47 St)arrived in 67.599541 ticks.   Path: Times Sq - 42 St -> Bellevue Hospital EMS -> Grand Central - 42 St -> Penn Station - 34 St -> Rockefeller Ctr - 47 St
+Car 50029   (Times Sq - 42 St->Rockefeller Ctr - 47 St)arrived in 67.599541 ticks.   Path: Times Sq - 42 St -> Bellevue Hospital EMS -> Grand Central - 42 St -> Penn Station - 34 St -> Rockefeller Ctr - 47 St
+Car 50030   (Herald Sq - 34 St->Penn Station - 34 St)arrived in 68.399529 ticks.   Path: Herald Sq - 34 St -> Times Sq - 42 St -> Bellevue Hospital EMS -> Grand Central - 42 St -> Penn Station - 34 St
+Car 50011   (Central Park South->Brooklyn Bridge - City Hall)arrived in 69.699509 ticks.   Path: Central Park South -> Canal St - Broadway -> Brooklyn Bridge - City Hall
+Car 50005   (Grand Central - 42 St->Wall St - Financial)arrived in 70.199501 ticks.   Path: Grand Central - 42 St -> Columbus Circle - 59 St -> Wall St - Financial
+Car 50006   (Hudson Yards - 34 St->Times Sq - 42 St)arrived in 70.999489 ticks.   Path: Hudson Yards - 34 St -> Central Park South -> Canal St - Broadway -> Herald Sq - 34 St -> Times Sq - 42 St
+Car 50028   (Herald Sq - 34 St->Hudson Yards - 34 St)arrived in 71.599480 ticks.   Path: Herald Sq - 34 St -> Canal St - Broadway -> Central Park South -> Hudson Yards - 34 St
+Car 50036   (Columbus Circle - 59 St->Central Park South)arrived in 71.599480 ticks.   Path: Columbus Circle - 59 St -> Wall St - Financial -> Central Park South
+Car 50000   (Hudson Yards - 34 St->Brooklyn Bridge - City Hall)arrived in 73.599449 ticks.   Path: Hudson Yards - 34 St -> SoHo - Spring St -> Lexington - 53 St -> Brooklyn Bridge - City Hall
+Car 50028   (Grand Central - 42 St->Columbus Circle - 59 St)arrived in 24.400057 ticks.   Path: Grand Central - 42 St -> Columbus Circle - 59 St
+Car 50011   (Central Park South->Grand Central - 42 St)arrived in 55.099731 ticks.   Path: Central Park South -> Canal St - Broadway -> Union Sq - 14 St -> Grand Central - 42 St
+Car 50026   (Brooklyn Bridge - City Hall->Central Park South)arrived in 75.399422 ticks.   Path: Brooklyn Bridge - City Hall -> Canal St - Broadway -> Central Park South
+Car 50015   (Penn Station - 34 St->Fulton St - Transit Ctr)arrived in 48.799828 ticks.   Path: Penn Station - 34 St -> Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr
+Car 50019   (SoHo - Spring St->Brooklyn Bridge - City Hall)arrived in 41.799934 ticks.   Path: SoHo - Spring St -> Lexington - 53 St -> Brooklyn Bridge - City Hall
+Car 50005   (Columbus Circle - 59 St->Lexington - 53 St)arrived in 67.499542 ticks.   Path: Columbus Circle - 59 St -> Fulton St - Transit Ctr -> Lexington - 53 St
+Car 50017   (Union Sq - 14 St->Lexington - 53 St)arrived in 45.899872 ticks.   Path: Union Sq - 14 St -> Bellevue Hospital EMS -> Lexington - 53 St
+Car 50024   (SoHo - Spring St->Grand Central - 42 St)arrived in 34.600044 ticks.   Path: SoHo - Spring St -> Grand Central - 42 St
+Car 50001   (Wall St - Financial->Bellevue Hospital EMS)arrived in 78.199379 ticks.   Path: Wall St - Financial -> Union Sq - 14 St -> Bellevue Hospital EMS
+Car 50031   (SoHo - Spring St->Herald Sq - 34 St)arrived in 79.399361 ticks.   Path: SoHo - Spring St -> Hudson Yards - 34 St -> Central Park South -> Canal St - Broadway -> Herald Sq - 34 St
+Car 50008   (Central Park South->Grand Central - 42 St)arrived in 80.799339 ticks.   Path: Central Park South -> Canal St - Broadway -> Union Sq - 14 St -> Grand Central - 42 St
+Car 50015   (Central Park South->Grand Central - 42 St)arrived in 80.799339 ticks.   Path: Central Park South -> Canal St - Broadway -> Union Sq - 14 St -> Grand Central - 42 St
+Car 50007   (Wall St - Financial->Herald Sq - 34 St)arrived in 68.899521 ticks.   Path: Wall St - Financial -> Canal St - Broadway -> Herald Sq - 34 St
+Car 50013   (Penn Station - 34 St->Times Sq - 42 St)arrived in 58.399681 ticks.   Path: Penn Station - 34 St -> Grand Central - 42 St -> Bellevue Hospital EMS -> Times Sq - 42 St
+Car 50025   (Times Sq - 42 St->Canal St - Broadway)arrived in 37.200005 ticks.   Path: Times Sq - 42 St -> Herald Sq - 34 St -> Canal St - Broadway
+Car 50012   (Rockefeller Ctr - 47 St->Central Park South)arrived in 83.399300 ticks.   Path: Rockefeller Ctr - 47 St -> Fulton St - Transit Ctr -> Hudson Yards - 34 St -> Central Park South
+Car 50033   (SoHo - Spring St->Rockefeller Ctr - 47 St)arrived in 84.099289 ticks.   Path: SoHo - Spring St -> Lexington - 53 St -> Brooklyn Bridge - City Hall -> Rockefeller Ctr - 47 St
+Car 50002   (Penn Station - 34 St->Canal St - Broadway)arrived in 84.199287 ticks.   Path: Penn Station - 34 St -> Grand Central - 42 St -> Union Sq - 14 St -> Canal St - Broadway

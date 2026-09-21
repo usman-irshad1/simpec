@@ -1,0 +1,3 @@
+Timestamp,Scenario,GridSize,Lanes,SpeedLimitKmh,Capacity,ActiveVehicles,CompletedTrips,AvgTravelTicks,ThroughputVpTick,CongestionPct,CO2EmittedKg,FuelLiters,HCM_LOS,SignalStrategy
+2895,Manhattan_Midtown,4x4,3,50,60,36,177,54.88,0.06,1.78,62.37,24.24,LOS B (Stable Flow),GA_OPTIMIZED
+2895,Manhattan_Midtown,4x4,3,50,60,36,177,54.88,0.06,1.78,62.37,24.24,LOS B (Stable Flow),GA_OPTIMIZED
