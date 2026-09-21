@@ -1,0 +1,41 @@
+# Visual Studio & Windows
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.aps
+*.pdb
+
+# Compiled Binaries & Objects
+*.exe
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+
+# Explicitly track Windows Raylib dynamic library for instant out-of-the-box running
+!raylib.dll
+
+# CMake Build Artefacts
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Python Virtual Environments & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+
+# Logs & Temporary Files
+*.log
+.DS_Store
+Thumbs.db

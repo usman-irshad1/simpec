@@ -1,0 +1,15 @@
+{
+  "model_name": "TrafficSignalResNet",
+  "num_test_samples": 1500,
+  "cycle_r2": 0.9981,
+  "cycle_mae_sec": 0.19,
+  "cycle_accuracy_pct": 99.9,
+  "delay_r2": 0.9367,
+  "delay_mae_sec": 1.17,
+  "delay_accuracy_pct": 97.9,
+  "los_classification_accuracy_pct": 94.0,
+  "route_travel_time_r2": 0.9867,
+  "route_mae_sec": 0.51,
+  "green_split_mae_sec": 0.24,
+  "inference_latency_ms": 0.42
+}

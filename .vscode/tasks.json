@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "C/C++: Dynamic g++ Build & Run Active File",
+      "command": "g++",
+      "args": [
+        "-std=c++17",
+        "-O2",
+        "-I${workspaceFolder}/include",
+        "-I${workspaceFolder}/src/core",
+        "-I${workspaceFolder}/src/simulation",
+        "-I${workspaceFolder}/src/visualization",
+        "-L${workspaceFolder}",
+        "${file}",
+        "${workspaceFolder}/raylib.dll",
+        "-o",
+        "${workspaceFolder}/${fileBasenameNoExtension}.exe",
+        "-lopengl32",
+        "-lgdi32",
+        "-lwinmm"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Dynamically builds the currently active C++ file into an executable in the workspace root."
+    }
+  ]
+}

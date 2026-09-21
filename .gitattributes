@@ -1,0 +1,18 @@
+# Ensure C++ is the primary detected language
+*.cpp linguist-detectable
+*.h linguist-detectable
+
+# Mark all documentation/generated files so they don't affect language stats
+docs/** linguist-documentation
+*.html linguist-documentation
+*.tex linguist-documentation
+*.js linguist-documentation
+*.css linguist-documentation
+*.svg linguist-documentation
+*.map linguist-documentation
+*.md5 linguist-documentation
+*.txt linguist-documentation
+*.csv linguist-documentation
+
+# Mark Doxygen generated output as vendored
+Project_DSA/** linguist-vendored
