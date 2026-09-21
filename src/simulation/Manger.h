@@ -478,27 +478,47 @@ public:
     }
 
     void injectPeakDemand(int currentTime, bool isMorningRush) {
-        string metroHubs[] = { "Karachi", "Lahore", "Islamabad", "Multan" };
-        string regionalCities[] = { "Sukkur", "Quetta", "DG Khan", "Faisalabad", "Peshawar", "Gujranwala", "Sialkot" };
+        if (map->Vcount < 2) return;
         static int peakCarID = 60000;
         int carsToInject = 15;
 
+        // Detect if this is the legacy national Pakistan highway map
+        bool isPakistanMap = (map->getIndex("Karachi") != -1 && map->getIndex("Lahore") != -1 && map->getIndex("Multan") != -1);
+
         for (int i = 0; i < carsToInject; i++) {
             string start, end;
-            if (isMorningRush) {
-                start = regionalCities[rand() % 7];
-                end = metroHubs[rand() % 4];
+            if (isPakistanMap) {
+                string metroHubs[] = { "Karachi", "Lahore", "Islamabad", "Multan" };
+                string regionalCities[] = { "Sukkur", "Quetta", "DG Khan", "Faisalabad", "Peshawar", "Gujranwala", "Sialkot" };
+                if (isMorningRush) {
+                    start = regionalCities[rand() % 7];
+                    end = metroHubs[rand() % 4];
+                }
+                else {
+                    start = metroHubs[rand() % 4];
+                    end = regionalCities[rand() % 7];
+                }
+            } else {
+                // Dynamically pick distinct vertices from the currently active city/OSM/metro map
+                int u = rand() % map->Vcount;
+                int v = rand() % map->Vcount;
+                int attempts = 0;
+                while (attempts < 15 && (u == v || abs(u - v) < 2)) {
+                    v = rand() % map->Vcount;
+                    attempts++;
+                }
+                if (u == v) v = (u + 1) % map->Vcount;
+                start = map->getVertexAt(u);
+                end = map->getVertexAt(v);
             }
-            else {
-                start = metroHubs[rand() % 4];
-                end = regionalCities[rand() % 7];
-            }
-            if (start != end) {
+
+            if (start != end && !start.empty() && !end.empty()) {
                 VehicleType vType = VEHICLE_CAR;
                 int r = rand() % 100;
-                if (r < 65) vType = VEHICLE_CAR;
-                else if (r < 80) vType = VEHICLE_BUS;
-                else if (r < 94) vType = VEHICLE_TRUCK;
+                if (r < 60) vType = VEHICLE_CAR;
+                else if (r < 75) vType = VEHICLE_BUS;
+                else if (r < 88) vType = VEHICLE_TRUCK;
+                else if (r < 95) vType = VEHICLE_EV;
                 else vType = VEHICLE_EMERGENCY;
 
                 addVehicle(peakCarID++, start, end, vType);
