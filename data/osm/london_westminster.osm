@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="AdaptiveTrafficSimulator_OSMImporter">
+  <bounds minlat="51.4900" minlon="-0.1600" maxlat="51.5200" maxlon="-0.1000"/>
+
+  <!-- Key Urban Intersections / Nodes in Central London, UK -->
+  <node id="301" lat="51.5005" lon="-0.1268">
+    <tag k="name" v="Parliament Square"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="302" lat="51.5009" lon="-0.1215">
+    <tag k="name" v="Westminster Bridge"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="303" lat="51.5031" lon="-0.1132">
+    <tag k="name" v="Waterloo Station"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="304" lat="51.5045" lon="-0.1250">
+    <tag k="name" v="Whitehall (Downing St)"/>
+  </node>
+  <node id="305" lat="51.5080" lon="-0.1281">
+    <tag k="name" v="Trafalgar Square"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="306" lat="51.5101" lon="-0.1340">
+    <tag k="name" v="Piccadilly Circus"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="307" lat="51.5033" lon="-0.1517">
+    <tag k="name" v="Hyde Park Corner"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="308" lat="51.5014" lon="-0.1419">
+    <tag k="name" v="Buckingham Palace (The Mall)"/>
+  </node>
+  <node id="309" lat="51.4952" lon="-0.1439">
+    <tag k="name" v="Victoria Station"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="310" lat="51.5152" lon="-0.1419">
+    <tag k="name" v="Oxford Circus"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+
+  <!-- Ways in Central London -->
+  <!-- 1. Whitehall -->
+  <way id="401">
+    <nd ref="301"/>
+    <nd ref="304"/>
+    <nd ref="305"/>
+    <tag k="name" v="Whitehall"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="40"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 2. Westminster Bridge to Waterloo -->
+  <way id="402">
+    <nd ref="301"/>
+    <nd ref="302"/>
+    <nd ref="303"/>
+    <tag k="name" v="Westminster Bridge Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="35"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 3. The Mall (Palace to Trafalgar) -->
+  <way id="403">
+    <nd ref="308"/>
+    <nd ref="305"/>
+    <tag k="name" v="The Mall (Royal Avenue)"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="45"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 4. Piccadilly to Hyde Park Corner -->
+  <way id="404">
+    <nd ref="305"/>
+    <nd ref="306"/>
+    <nd ref="307"/>
+    <tag k="name" v="Piccadilly"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="40"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 5. Regent Street (Piccadilly to Oxford Circus) -->
+  <way id="405">
+    <nd ref="306"/>
+    <nd ref="310"/>
+    <tag k="name" v="Regent Street"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 6. Victoria Street -->
+  <way id="406">
+    <nd ref="301"/>
+    <nd ref="309"/>
+    <tag k="name" v="Victoria Street"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="35"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 7. Constitution Hill -->
+  <way id="407">
+    <nd ref="308"/>
+    <nd ref="307"/>
+    <tag k="name" v="Constitution Hill"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="40"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 8. Grosvenor Place -->
+  <way id="408">
+    <nd ref="307"/>
+    <nd ref="309"/>
+    <tag k="name" v="Grosvenor Place"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="40"/>
+    <tag k="oneway" v="no"/>
+  </way>
+</osm>

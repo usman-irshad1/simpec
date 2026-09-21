@@ -10,6 +10,7 @@
 #include "../core/Header1.h"
 #include "Graphics.h"
 #include "../simulation/CityDesigner.h"
+#include "../simulation/OSMImporter.h"
 
 using namespace std;
 
@@ -548,6 +549,11 @@ int main() {
     int activeStrategyIdx = 1; // 0=Webster, 1=GA, 2=Actuated, 3=Coordinated
     int trackedCarId = -1;
 
+    // Real-World OpenStreetMap (OSM) Importer State
+    OSMMapData activeOSMData;
+    bool isOSMActive = false;
+    string activeOSMTitle = "";
+
     while (!WindowShouldClose()) {
         Vector2 mousePos = GetMousePosition();
         bool inViewport = (mousePos.x > 400.0f);
@@ -565,8 +571,45 @@ int main() {
             EndDrawing();
 
             if (menuAction == MENU_ACTION_SEE_CITY) {
+                if (isOSMActive) {
+                    isOSMActive = false;
+                    activeOSMTitle = "";
+                    SetupNYCMetroCustomCity(nycSim, nycParams, nycPositions, nycPositions3D, screenWidth, screenHeight);
+                }
                 currentPositions = nycPositions;
                 currentView = VIEW_NYC_METRO_CITY;
+            } else if (menuAction == MENU_ACTION_LOAD_OSM_LAHORE) {
+                if (ParseOSMFile("data/osm/lahore_mall_road.osm", activeOSMData)) {
+                    ConvertOSMToSimulator(activeOSMData, nycSim, nycPositions, nycPositions3D, screenWidth, screenHeight, 45);
+                    currentPositions = nycPositions;
+                    isOSMActive = true;
+                    activeOSMTitle = "LAHORE (MALL ROAD) - REAL-WORLD OSM";
+                    currentView = VIEW_NYC_METRO_CITY;
+                    camOrbitAngle = 0.85f;
+                    camPitch = 0.80f;
+                    camDistance = 38.0f;
+                    camTarget = Vector3{ 0.0f, 0.5f, 0.0f };
+                    total_time = 0;
+                    isPaused = false;
+                    trackedCarId = -1;
+                    chaseCarId = -1;
+                }
+            } else if (menuAction == MENU_ACTION_LOAD_OSM_LONDON) {
+                if (ParseOSMFile("data/osm/london_westminster.osm", activeOSMData)) {
+                    ConvertOSMToSimulator(activeOSMData, nycSim, nycPositions, nycPositions3D, screenWidth, screenHeight, 45);
+                    currentPositions = nycPositions;
+                    isOSMActive = true;
+                    activeOSMTitle = "LONDON (WESTMINSTER) - REAL-WORLD OSM";
+                    currentView = VIEW_NYC_METRO_CITY;
+                    camOrbitAngle = 0.85f;
+                    camPitch = 0.80f;
+                    camDistance = 38.0f;
+                    camTarget = Vector3{ 0.0f, 0.5f, 0.0f };
+                    total_time = 0;
+                    isPaused = false;
+                    trackedCarId = -1;
+                    chaseCarId = -1;
+                }
             } else if (menuAction == MENU_ACTION_RUN_OPTIMIZER) {
                 currentView = VIEW_DATA_OPTIMIZER;
             } else if (menuAction == MENU_ACTION_EVAL_ML) {
@@ -660,6 +703,38 @@ int main() {
             if (IsKeyPressed(KEY_K)) {
                 ExportCityPlanningMetrics(nycSim, nycParams, total_time);
             }
+            if (IsKeyPressed(KEY_L)) {
+                if (ParseOSMFile("data/osm/lahore_mall_road.osm", activeOSMData)) {
+                    ConvertOSMToSimulator(activeOSMData, nycSim, nycPositions, nycPositions3D, screenWidth, screenHeight, 45);
+                    currentPositions = nycPositions;
+                    isOSMActive = true;
+                    activeOSMTitle = "LAHORE (MALL ROAD) - REAL-WORLD OSM";
+                    camOrbitAngle = 0.85f;
+                    camPitch = 0.80f;
+                    camDistance = 38.0f;
+                    camTarget = Vector3{ 0.0f, 0.5f, 0.0f };
+                    total_time = 0;
+                    isPaused = false;
+                    trackedCarId = -1;
+                    chaseCarId = -1;
+                }
+            }
+            if (IsKeyPressed(KEY_J)) {
+                if (ParseOSMFile("data/osm/london_westminster.osm", activeOSMData)) {
+                    ConvertOSMToSimulator(activeOSMData, nycSim, nycPositions, nycPositions3D, screenWidth, screenHeight, 45);
+                    currentPositions = nycPositions;
+                    isOSMActive = true;
+                    activeOSMTitle = "LONDON (WESTMINSTER) - REAL-WORLD OSM";
+                    camOrbitAngle = 0.85f;
+                    camPitch = 0.80f;
+                    camDistance = 38.0f;
+                    camTarget = Vector3{ 0.0f, 0.5f, 0.0f };
+                    total_time = 0;
+                    isPaused = false;
+                    trackedCarId = -1;
+                    chaseCarId = -1;
+                }
+            }
         }
 
         if (currentView == VIEW_REALM_OVERWORLD) {
@@ -683,6 +758,8 @@ int main() {
 
         // Quick NYC Planning Presets (Keys 1-3)
         if (IsKeyPressed(KEY_ONE)) {
+            isOSMActive = false;
+            activeOSMTitle = "";
             nycParams.loadPreset(0); // Manhattan Midtown
             SetupNYCMetroCustomCity(nycSim, nycParams, nycPositions, nycPositions3D, screenWidth, screenHeight);
             currentPositions = nycPositions;
@@ -694,6 +771,8 @@ int main() {
             trackedCarId = -1;
         }
         if (IsKeyPressed(KEY_TWO)) {
+            isOSMActive = false;
+            activeOSMTitle = "";
             nycParams.loadPreset(1); // Broadway Diagonal Express
             SetupNYCMetroCustomCity(nycSim, nycParams, nycPositions, nycPositions3D, screenWidth, screenHeight);
             currentPositions = nycPositions;
@@ -705,6 +784,8 @@ int main() {
             trackedCarId = -1;
         }
         if (IsKeyPressed(KEY_THREE)) {
+            isOSMActive = false;
+            activeOSMTitle = "";
             nycParams.loadPreset(2); // Crosstown Transit Hub
             SetupNYCMetroCustomCity(nycSim, nycParams, nycPositions, nycPositions3D, screenWidth, screenHeight);
             currentPositions = nycPositions;
@@ -1327,13 +1408,14 @@ int main() {
             if (bannerW > 100) {
                 DrawRectangle(bannerX, 16, bannerW, 40, Fade(Color{ 14, 17, 24, 255 }, 0.92f));
                 DrawRectangleLines(bannerX, 16, bannerW, 40, Fade(GetMTAColorYellow(), 0.5f));
-                DrawText("NYC METRO 3D TRANSIT | BLINKING SIGNAL NODES", bannerX + 15, 27, 15, GetMTAColorYellow());
+                const char* bannerTitle = isOSMActive ? TextFormat("%s | 3D SIMULATION", activeOSMTitle.c_str()) : "NYC METRO 3D TRANSIT | BLINKING SIGNAL NODES";
+                DrawText(bannerTitle, bannerX + 15, 27, 14, GetMTAColorYellow());
             }
 
             // 4.4 LEFT TELEMETRY SIDEBAR WITH 3D CAMERA SUITE
             bool triggerSettings = false;
             bool triggerExport = false;
-            DrawNYCMetroTelemetrySidebar(nycSim, nycParams, currentPositions, total_time, isPaused, simSpeed, rushHistory, screenWidth, screenHeight, triggerSettings, triggerExport, camActions);
+            DrawNYCMetroTelemetrySidebar(nycSim, nycParams, currentPositions, total_time, isPaused, simSpeed, rushHistory, screenWidth, screenHeight, triggerSettings, triggerExport, camActions, isOSMActive ? activeOSMTitle.c_str() : nullptr);
             if (triggerSettings) {
                 currentView = VIEW_CITY_DESIGNER;
             }

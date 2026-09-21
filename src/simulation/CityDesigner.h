@@ -658,7 +658,9 @@ enum MainMenuAction {
     MENU_ACTION_RUN_OPTIMIZER = 2,  // Run model on collected data
     MENU_ACTION_CONFIG_CITY = 3,    // Open City Designer settings
     MENU_ACTION_REALM_OVERWORLD = 4, // Open 2D Overworld / Metropolis
-    MENU_ACTION_EVAL_ML = 5         // Run ML evaluation & see accuracy
+    MENU_ACTION_EVAL_ML = 5,        // Run ML evaluation & see accuracy
+    MENU_ACTION_LOAD_OSM_LAHORE = 6, // Load Lahore Mall Road (OSM)
+    MENU_ACTION_LOAD_OSM_LONDON = 7  // Load London Westminster (OSM)
 };
 
 inline MainMenuAction DrawMainMenuHub(int screenWidth, int screenHeight, int totalVehicles, float avgDelay, float congestionPct) {
@@ -737,9 +739,26 @@ inline MainMenuAction DrawMainMenuHub(int screenWidth, int screenHeight, int tot
     DrawBullet(c1.x + 20, fy, "Emergency Green Corridor Preemption", "Hospital ambulances trigger dynamic wave clearance and priority signals", RED);
     DrawBullet(c1.x + 20, fy, "Driver Chase-Camera & Orbit Suite", "Lock tracking on any vehicle or orbit freely around the metropolitan grid", GOLD);
 
+    // Real-World OpenStreetMap (OSM) Importer Selector
+    float osmBoxY = c1.y + c1.height - 180.0f;
+    Rectangle osmBoxRec = { c1.x + 25.0f, osmBoxY, c1.width - 50.0f, 60.0f };
+    DrawRectangleRec(osmBoxRec, Fade(Color{ 10, 35, 55, 255 }, 0.85f));
+    DrawRectangleLinesEx(osmBoxRec, 1.0f, Fade(SKYBLUE, 0.6f));
+    DrawText("REAL-WORLD OPENSTREETMAP (OSM) IMPORTER:", (int)osmBoxRec.x + 12, (int)osmBoxRec.y + 6, 11, SKYBLUE);
+
+    float osmBtnW = (osmBoxRec.width - 24.0f) * 0.5f;
+    Rectangle btnLahore = { osmBoxRec.x + 8.0f, osmBoxRec.y + 24.0f, osmBtnW, 28.0f };
+    if (DrawButton(btnLahore, "LAHORE (MALL RD) [L]", Color{ 20, 60, 80, 255 }, RAYWHITE, 11) || IsKeyPressed(KEY_L)) {
+        action = MENU_ACTION_LOAD_OSM_LAHORE;
+    }
+    Rectangle btnLondon = { osmBoxRec.x + 16.0f + osmBtnW, osmBoxRec.y + 24.0f, osmBtnW, 28.0f };
+    if (DrawButton(btnLondon, "LONDON (WESTMINSTER) [K]", Color{ 30, 50, 85, 255 }, RAYWHITE, 11) || IsKeyPressed(KEY_K)) {
+        action = MENU_ACTION_LOAD_OSM_LONDON;
+    }
+
     // Card 1 Primary Actions
     Rectangle btnSeeCity = { c1.x + 30.0f, c1.y + c1.height - 110.0f, c1.width - 60.0f, 48.0f };
-    if (DrawButton(btnSeeCity, ">> ENTER LIVE CITY SIMULATOR [1] <<", GetMTAColorGreen(), RAYWHITE, 16) || IsKeyPressed(KEY_ONE) || IsKeyPressed(KEY_ENTER)) {
+    if (DrawButton(btnSeeCity, ">> ENTER NYC METRO SIMULATOR [1] <<", GetMTAColorGreen(), RAYWHITE, 16) || IsKeyPressed(KEY_ONE) || IsKeyPressed(KEY_ENTER)) {
         action = MENU_ACTION_SEE_CITY;
     }
     Rectangle btnConfigCity = { c1.x + 30.0f, c1.y + c1.height - 52.0f, (c1.width - 70.0f) * 0.5f, 38.0f };
@@ -789,7 +808,7 @@ inline MainMenuAction DrawMainMenuHub(int screenWidth, int screenHeight, int tot
     float bottomY = (float)screenHeight - 55.0f;
     DrawRectangle(0, (int)bottomY, screenWidth, 55, Fade(BLACK, 0.95f));
     DrawLine(0, (int)bottomY, screenWidth, (int)bottomY, Fade(GRAY, 0.3f));
-    DrawText("QUICK ACCESS:  [1] See City  |  [2] Run Optimization  |  [E] Test ML Accuracy  |  [3] 2D Overworld  |  [F1] Settings", 60, (int)bottomY + 20, 13, Fade(RAYWHITE, 0.8f));
+    DrawText("QUICK ACCESS:  [1] NYC Metro  |  [L] Lahore OSM  |  [K] London OSM  |  [2] Optimizer  |  [3] 2D Overworld  |  [F1] Settings", 60, (int)bottomY + 20, 13, Fade(RAYWHITE, 0.8f));
 
     return action;
 }
@@ -2005,7 +2024,8 @@ inline void DrawNYCMetroTelemetrySidebar(
     int screenHeight,
     bool& outTriggerSettings,
     bool& outTriggerExport,
-    NYCCameraControlActions& camActions
+    NYCCameraControlActions& camActions,
+    const char* customTitle = nullptr
 ) {
     int sidebarW = 400;
     DrawRectangle(0, 0, sidebarW, screenHeight, Fade(Color{ 10, 13, 19, 255 }, 0.95f));
@@ -2024,8 +2044,8 @@ inline void DrawNYCMetroTelemetrySidebar(
     };
 
     // Header Title
-    DrawText("NYC MTA OPERATIONS CONSOLE", 25, 15, 19, GetMTAColorYellow());
-    DrawText("LIVE 3D METRO TELEMETRY & PLANNING", 25, 38, 12, Fade(RAYWHITE, 0.75f));
+    DrawText(customTitle ? customTitle : "NYC MTA OPERATIONS CONSOLE", 25, 15, customTitle ? 17 : 19, GetMTAColorYellow());
+    DrawText(customTitle ? "REAL-WORLD STREETS & TRAFFIC SIGNALS" : "LIVE 3D METRO TELEMETRY & PLANNING", 25, 38, 12, Fade(RAYWHITE, 0.75f));
     DrawLine(25, 56, 375, 56, Fade(GRAY, 0.3f));
 
     // Simulation Clock & Status

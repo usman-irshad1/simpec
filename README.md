@@ -57,7 +57,13 @@ An advanced **Intelligent Transportation System (ITS)** simulation and optimizat
   * **A\* Haversine Routing**: Admissible great-circle distance heuristic using station GPS coordinates.
 * **Incident Management**: Press **`[B]`** to simulate road blockages and witness vehicles dynamically rerouting around bottleneck shockwaves.
 
-### 5. 🌱 Carbon Footprint & Energy Analytics
+### 5. 🗺️ OpenStreetMap (OSM) Real-World City Importer
+* **Simulate Any Hometown**: Import real-world street maps directly from standard OpenStreetMap `.osm` XML files into the 3D/2D simulation engine.
+* **Geodetic Equirectangular Projection**: Maps WGS84 GPS (latitude/longitude) coordinates into scaled 3D perspective and 2D top-down views with Haversine geodetic link distances.
+* **Automated Road Hierarchy & Signal Extraction**: Extracts road classifications (`motorway`, `trunk`, `primary`, `secondary`), lanes, speed limits, and automatically configures 3-aspect traffic signals at multi-approach junctions.
+* **Pre-Packaged Real-World Maps**: Includes **Lahore Mall Road (Pakistan)** (Charing Cross, Regal Chowk, High Court, GPO) and **London Westminster (UK)** (Parliament Square, Whitehall, Trafalgar Square, Piccadilly Circus).
+
+### 6. 🌱 Carbon Footprint & Energy Analytics
 * Real-time calculation of fuel consumption (Liters), congestion idling waste, and $CO_2$ emissions (kg).
 * Highway Capacity Manual (HCM 2016) Level of Service classifier (**LOS A** through **LOS F**).
 * Electronic **M-Tag RFID toll plaza** simulation tracking throughput and revenue.
@@ -152,6 +158,8 @@ make -j$(sysctl -n hw.ncpu)
 | **`[N]`** | Single-Tick Frame Advance |
 | **`[Z]` / `[X]` / `[C]`** | Set Simulation Speed to 1x, 2x, or 5x |
 | **`[1]` / `[2]` / `[3]`** | Load Planning Presets (Manhattan Midtown, Broadway Diagonal, Crosstown) |
+| **`[L]`** | Load Real-World Lahore Mall Road (OpenStreetMap) |
+| **`[J]`** | Load Real-World London Westminster (OpenStreetMap) |
 | **`[T]`** | Toggle Driver Chase-Cam Tracking (Locks camera to active vehicles) |
 | **`[R]`** | Reset Camera / Toggle 3D Auto-Orbit |
 | **`[V]` / `[I]`** | Dispatch Single Commuter Vehicle / Taxi |

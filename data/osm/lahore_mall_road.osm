@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="AdaptiveTrafficSimulator_OSMImporter">
+  <bounds minlat="31.5350" minlon="74.3100" maxlat="31.5800" maxlon="74.3700"/>
+
+  <!-- Key Urban Intersections / Nodes in Lahore, Pakistan -->
+  <node id="101" lat="31.5583" lon="74.3278">
+    <tag k="name" v="Charing Cross (Faisal Sq)"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="102" lat="31.5620" lon="74.3215">
+    <tag k="name" v="Regal Chowk"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="103" lat="31.5645" lon="74.3200">
+    <tag k="name" v="High Court Chowk"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="104" lat="31.5695" lon="74.3168">
+    <tag k="name" v="GPO Chowk (The Mall)"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="105" lat="31.5675" lon="74.3140">
+    <tag k="name" v="Anarkali Bazaar Gate"/>
+  </node>
+  <node id="106" lat="31.5540" lon="74.3350">
+    <tag k="name" v="Governor House Junction"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="107" lat="31.5570" lon="74.3390">
+    <tag k="name" v="Davis Road Junction"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="108" lat="31.5630" lon="74.3360">
+    <tag k="name" v="Shimla Pahari"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="109" lat="31.5770" lon="74.3330">
+    <tag k="name" v="Lahore Railway Station"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="110" lat="31.5450" lon="74.3500">
+    <tag k="name" v="Canal Road Mall Bridge"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="111" lat="31.5480" lon="74.3450">
+    <tag k="name" v="Aitchison College Gate"/>
+  </node>
+  <node id="112" lat="31.5350" lon="74.3650">
+    <tag k="name" v="Fortress Stadium Bridge"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="113" lat="31.5500" lon="74.3250">
+    <tag k="name" v="Lawrence Gardens (Bagh-e-Jinnah)"/>
+  </node>
+  <node id="114" lat="31.5400" lon="74.3300">
+    <tag k="name" v="Qurtaba Chowk (Jail Rd)"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+
+  <!-- Arterial & Primary Roads in Lahore -->
+  <!-- 1. The Mall (Shahrah-e-Quaid-e-Azam) -->
+  <way id="201">
+    <nd ref="105"/>
+    <nd ref="104"/>
+    <nd ref="103"/>
+    <nd ref="102"/>
+    <nd ref="101"/>
+    <nd ref="106"/>
+    <nd ref="111"/>
+    <nd ref="110"/>
+    <tag k="name" v="Shahrah-e-Quaid-e-Azam (The Mall)"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 2. Davis Road -->
+  <way id="202">
+    <nd ref="101"/>
+    <nd ref="107"/>
+    <nd ref="108"/>
+    <tag k="name" v="Davis Road"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 3. Empress Road to Railway Station -->
+  <way id="203">
+    <nd ref="108"/>
+    <nd ref="109"/>
+    <tag k="name" v="Empress Road"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 4. Circular Road to GPO -->
+  <way id="204">
+    <nd ref="109"/>
+    <nd ref="104"/>
+    <tag k="name" v="Allama Iqbal Circular Road"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="45"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 5. Queen's Road / Lawrence Road -->
+  <way id="205">
+    <nd ref="101"/>
+    <nd ref="113"/>
+    <nd ref="114"/>
+    <tag k="name" v="Queen's Road"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 6. Jail Road -->
+  <way id="206">
+    <nd ref="114"/>
+    <nd ref="110"/>
+    <tag k="name" v="Jail Road (Gulberg Link)"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="65"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 7. Lahore Canal Bank Road Expressway -->
+  <way id="207">
+    <nd ref="110"/>
+    <nd ref="112"/>
+    <tag k="name" v="Canal Bank Road Expressway"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="80"/>
+    <tag k="oneway" v="no"/>
+  </way>
+
+  <!-- 8. Sundar Das Road / Mall Bypass -->
+  <way id="208">
+    <nd ref="106"/>
+    <nd ref="107"/>
+    <tag k="name" v="Sundar Das Road"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="45"/>
+    <tag k="oneway" v="no"/>
+  </way>
+</osm>
