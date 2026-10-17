@@ -187,11 +187,12 @@ pip install -r requirements.txt
 python ml_pipeline/evaluate_model.py
 ```
 
-### Benchmark Results
-* **Cycle Length Prediction ($R^2$)**: `0.9854` (97.9% Accuracy)
-* **Delay Reduction Estimation ($R^2$)**: `0.9981` (98.8% Accuracy)
-* **HCM Level of Service Accuracy**: `94.0%`
-* **Route Travel Time MAE**: `1.15s`
+### Benchmark Results (`TrafficSignalResNet`, $N = 1,500$ test scenarios)
+* **Cycle Length Regression**: $R^2 = 0.9981$, $\text{MAE} = 0.19\text{ s}$
+* **Route Travel Time Regression**: $R^2 = 0.9867$, $\text{MAE} = 0.51\text{ s}$
+* **Delay Reduction Estimation**: $R^2 = 0.9367$, $\text{MAE} = 1.17\text{ s}$
+* **Green Split Allocation Error**: $\text{MAE} = 0.24\text{ s}$
+* **HCM Level of Service (LOS) Classification Accuracy**: `94.0%`
 
 Evaluation metrics are exported to [`data/ml_evaluation.json`](data/ml_evaluation.json) and displayed live inside the simulator's **Data Optimizer Studio**.
 
